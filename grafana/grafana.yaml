@@ -30,7 +30,7 @@ metadata:
     app: grafana
   name: grafana
 spec:
-  replicas: 5       # Updated to 3 replicas
+  replicas: 3       # Updated to 3 replicas
   selector:
     matchLabels:
       app: grafana
