@@ -279,3 +279,29 @@ Note that `gwip` and `gunwip` are aliases, but are also documented here to group
 | Command              | Description                             | Reason                                                           |
 | :------------------- | :-------------------------------------- | :--------------------------------------------------------------- |
 | `current_repository` | Return the names of the current remotes | Didn't work properly. Use `git remote -v` instead (`grv` alias). |
+
+<!-- BEGIN_TF_DOCS -->
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+<!-- END_TF_DOCS -->
