@@ -1,4 +1,4 @@
-#test
+#test1
 name: Generate terraform docs
 on:
   - pull_request
@@ -14,7 +14,7 @@ jobs:
     - name: Render terraform docs and push changes back to PR
       uses: terraform-docs/gh-actions@main
       with:
-        working-dir: terraform/
-        output-file: ../README.md
+        working-dir: .
+        output-file: README.md
         output-method: inject
         git-push: "true"
