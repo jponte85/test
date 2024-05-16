@@ -14,7 +14,17 @@ jobs:
     - name: Render terraform docs and push changes back to PR
       uses: terraform-docs/gh-actions@main
       with:
-        working-dir: .
-        output-file: README.md
+        working-dir: ./terraform
+        output-file: ../README.md
         output-method: inject
         git-push: "true"
+        
+    - name: Add README.md to staging
+      run: git add ../README.md
+
+    - name: Commit README.md
+      run: git commit -m "Update README.md with terraform docs" || echo "No changes to commit"
+
+    - name: Push changes
+      run: git push origin ${{ github.head_ref }}
+
