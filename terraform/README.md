@@ -16,7 +16,7 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_my_webserver"></a> [my\_webserver](#module\_my\_webserver) | ./ec2 | n/a |
+| <a name="module_my_webserver_jjp"></a> [my\_webserver\_jjp](#module\_my\_webserver\_jjp) | ./ec2 | n/a |
 
 ## Resources
 

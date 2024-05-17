@@ -27,7 +27,7 @@ provider "aws" {
   }
 }
 
-module "my_webserver" {
+module "my_webserver_jjp" {
   source             = "./ec2"                # Path to your module
   
   instance_type      = var.ec2_instance_type      # Replace with your desired instance type
